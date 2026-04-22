@@ -1,3 +1,5 @@
+DevOps CI/CD Pipeline with Docker, Nginx, AWS
+
               ┌──────────────┐
               │   User       │
               │  (Browser)   │
