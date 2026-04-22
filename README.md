@@ -14,16 +14,16 @@ This project demonstrates a production-style deployment of a containerized Node.
               └──────┬───────┘
                      │
                      ↓
-          ┌────────────────────┐
-          │  Docker Container  │
-          │  Node.js App       │
-          │  Port: 3000        │
-          └────────┬───────────┘
-                   ↓
-          ┌────────────────────┐
-          │   AWS EC2 Instance │
-          │   Ubuntu Server    │
-          └────────────────────┘
+           ┌────────────────────┐
+           │  Docker Container  │
+           │  Node.js App       │
+           │  Port: 3000        │
+           └────────┬───────────┘
+                    ↓
+           ┌────────────────────┐
+           │   AWS EC2 Instance │
+           │   Ubuntu Server    │
+           └────────────────────┘
 Tech Stack:
 - AWS EC2
 - Docker
