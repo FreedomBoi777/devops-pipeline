@@ -31,3 +31,11 @@ Tech Stack:
 - Node.js
 - GitHub Actions
 - Linux (Ubuntu)
+
+Setup Instructions:
+1. Clone repository
+2. Build Docker image:
+   docker build -t devops-app .
+3. Run container:
+   docker run -d -p 3000:3000 --restart unless-stopped devops-app
+4. Install and configure Nginx
