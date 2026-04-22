@@ -39,3 +39,16 @@ Setup Instructions:
 3. Run container:
    docker run -d -p 3000:3000 --restart unless-stopped devops-app
 4. Install and configure Nginx
+
+CI/CD:
+On every push to the main branch, GitHub Actions automatically builds the Docker image to ensure the application is always in a deployable state.
+
+Logging & Monitoring:
+- Used docker logs for container monitoring
+- Used Nginx access and error logs for request tracking
+
+Challenges & Fixes:
+- Docker permission issues (fixed using usermod)
+- Application not accessible externally (fixed by binding to 0.0.0.0)
+- Nginx configuration errors (fixed using nginx -t)
+- Container crashes due to syntax errors
