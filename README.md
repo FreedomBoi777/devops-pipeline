@@ -1,3 +1,7 @@
+                                            DevOps CI/CD Pipeline with Docker, Nginx, AWS.
+This project demonstrates a production-style deployment of a containerized Node.js application using Docker, Nginx reverse proxy, and AWS EC2. It includes CI pipeline integration using GitHub Actions and basic monitoring via logs.
+
+Architecture Diagram:
               ┌──────────────┐
               │   User       │
               │  (Browser)   │
@@ -20,3 +24,13 @@
           │   AWS EC2 Instance │
           │   Ubuntu Server    │
           └────────────────────┘
+
+Tech Stack:
+- AWS EC2
+- Docker
+- Nginx
+- Node.js
+- GitHub Actions
+- Linux (Ubuntu)
+CI/CD
+          
