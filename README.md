@@ -41,7 +41,7 @@ Setup Instructions:
 4. Install and configure Nginx
 
 CI/CD:
-On every push to the main branch, GitHub Actions automatically builds the Docker image to ensure the application is always in a deployable state.
+- On every push to the main branch, GitHub Actions automatically builds the Docker image to ensure the application is always in a deployable state.
 
 Logging & Monitoring:
 - Used docker logs for container monitoring
